@@ -1,13 +1,13 @@
 name: 🐞 Bug report
-description: Report a bug in Shop.
+description: Report a bug in Enchant-Boost.
 title: "[BUG] Your Title Here"
 labels: [bug]
 body:
 - type: markdown
   attributes:
     value: |
-      Thanks for taking the time to report a Shop bug! Fill out the form below to provide us with info to help fix the bug.
-      Only use this if you're 100% sure you've found a bug and can reproduce it. If you're looking for general help with Shop, try the Discord server.
+      Thanks for taking the time to report an Enchant Boost bug! Fill out the form below to provide us with info to help fix the bug.
+      Only use this if you're 100% sure you've found a bug and can reproduce it. If you're looking for general help with Enchant Boost, try the Discord server.
 
 - type: checkboxes
   attributes:
@@ -37,11 +37,11 @@ body:
     label: Environment
     description: |
       examples:
-        - **Server Version**: Paper 1.17
-        - **Shop Version**: 1.8.2.7
+        - **Server Version**: Paper 1.21
+        - **Enchant-Boost Version**: 1.21.0
     value: |
         - Server Version: 
-        - Shop Version: 
+        - Enchant-Boost Version: 
     render: markdown
   validations:
     required: false
@@ -55,31 +55,28 @@ body:
 - type: input
   attributes:
     label: Server startup log
-    description: Upload your server startup log (from the start of `latest.log` up to where it says "Done!") to either https://paste.gg or https://gist.github.com, save and then paste the link in this box.
-    placeholder: "Example: https://paste.gg/p/anonymous/109dd6a10a734a3aa430d5a351ea5210"
+    description: Upload your server startup log (from the start of `latest.log` up to where it says "Done!").
   validations:
     required: true
 
 - type: input
   attributes:
     label: Shop config files
-    description: Upload your Shop `config.yml` (and any other relevant files like `displayConfig.yml`) to either https://paste.gg or https://gist.github.com, save and then paste the link in this box. If you included those files in the same paste as your startup log, paste the same link here.
-    placeholder: "Example: https://paste.gg/p/anonymous/109dd6a10a734a3aa430d5a351ea5210"
+    description: Upload your Shop `config.yml` (and any other relevant files like `displayConfig.yml`).
   validations:
     required: true
 
 - type: input
   attributes:
     label: Error log (if applicable)
-    description: If you are reporting a console error, upload any relevant log excerpts to either https://paste.gg or https://gist.github.com, save and the paste the link in this box. If you included those files in the same paste as your startup log, paste the same link here.
-    placeholder: "Example: https://paste.gg/p/anonymous/109dd6a10a734a3aa430d5a351ea5210"
+    description: If you are reporting a console error, upload any relevant log excerpts.
 
 - type: textarea
   attributes:
     label: Bug description
     description: Describe roughly what the bug is here.
     placeholder: |
-      Example: "Gamble shops don't give out items."
+      Example: "Enchantment did not work."
   validations:
     required: true
 - type: textarea
@@ -88,8 +85,8 @@ body:
     description: Provide an example of how to trigger the bug.
     placeholder: |
       Example:
-      1. Create a gamble shop.
-      2. Right click the sign to gamble.
+      1. Place item in slot 1.
+      2. Place book in slot 2.
   validations:
     required: true
 - type: textarea
@@ -105,7 +102,7 @@ body:
     label: Actual behaviour
     description: Explain what actually happens.
     placeholder: |
-      Example: "Players don't receive an item, and are left with less money."
+      Example: "Players don't see the result item."
   validations:
     required: true
 
