@@ -1,4 +1,4 @@
-# ✨ EnchantBoost Wiki
+# ✨ EnchantBoost Bug Report & Wiki
 
 ![EnchantBoost Logo](https://www.maricopacraft.com/images/EB_Icon_64x64.png)
 
