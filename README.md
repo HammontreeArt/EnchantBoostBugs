@@ -1,6 +1,6 @@
 # ✨ EnchantBoost Wiki
 
-![EnchantBoost Logo](https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-enchantment-magic-flaticons-lineal-color-flat-icons.png)
+![EnchantBoost Logo](https://www.maricopacraft.com/images/EB_Icon_64x64.png)
 
 Welcome to the official wiki for **EnchantBoost**, the Minecraft plugin that allows players to boost enchantments and attributes beyond vanilla limits — through effort, not shortcuts.
 
