@@ -5,13 +5,35 @@
 Welcome to the official wiki for **EnchantBoost**, the Minecraft plugin that allows players to boost enchantments and attributes beyond vanilla limits — through effort, not shortcuts.
 
 
-# EnchantBoostBugs
-Enchant Boost Bug Tracker
+# 🐛 EnchantBoostBugs
 
-Before making a new bug report or feature suggestion, please read through all open issues (in the issues tab) before submitting a new issue.
+**Official Bug Tracker for EnchantBoost**
 
-I will review all bug reports and either decide to move forward or leave them in a queue to come back to later depending on the severity. 
+Welcome! This repository is dedicated to tracking bugs, feature requests, and enhancements for the [EnchantBoost](https://github.com/HammontreeArt/EnchantBoost) plugin.
 
-Please be patient. I may ask for additional info if you report a bug without enough information so be sure to check on the status of the issue from time to time.
+Before submitting a new issue, please take a moment to:
 
-Thanks!
+* ✅ **Search the existing issues** (open and closed) to avoid duplicates.
+* 📝 **Provide detailed information** if you're reporting a bug — the more context, the better.
+* 💡 **Label your issue** clearly as a *bug*, *suggestion*, or *question*.
+
+---
+
+## 📬 Issue Review Process
+
+All reports will be reviewed. Based on severity and priority, I will either:
+
+* Begin working on the issue promptly, or
+* Place it in a review queue to revisit later.
+
+Please be patient — if your report is missing details, I may comment and request more information. Be sure to check back periodically for updates or follow-up questions.
+
+---
+
+Thank you for helping improve **EnchantBoost**!
+— *HammontreeArt*
+
+---
+
+Let me know if you want a section added for known issues, roadmap, or contribution guidelines.
+
