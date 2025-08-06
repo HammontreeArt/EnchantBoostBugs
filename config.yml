@@ -1,0 +1,62 @@
+##########################################################################
+#
+# Plugin .:  Enchantment Boosts
+# Date... :  2024-06-10
+# Version :  2.0.0
+#
+##########################################################################
+
+# Enables debug messages in the server console (true/false)
+debug: true
+
+# Your Minecraft username or server admin name (used for logging or display)
+server-owner: 'xAtlas_Shruggedx'
+
+
+##########################################################################
+# BOOSTING CONFIGURATION
+##########################################################################
+
+# Amount of XP required to boost an enchantment or attribute
+required_xp: 30
+
+# ------------------------------------------------------------------------
+# List of enchantments that can be boosted using the anvil
+# Format: 'ENCHANTMENT_NAME:MAX_LEVEL'
+# Only valid Bukkit enchantment names are allowed (case-insensitive)
+# ------------------------------------------------------------------------
+boost_enchantments:
+  - 'PROTECTION:6'
+  - 'FIRE_PROTECTION:6'
+  - 'FEATHER_FALLING:5'
+  - 'BLAST_PROTECTION:6'
+  - 'PROJECTILE_PROTECTION:6'
+  - 'SHARPNESS:6'
+  - 'SMITE:6'
+  - 'LOOTING:5'
+  - 'FORTUNE:6'
+  - 'POWER:6'
+  - 'EFFICIENCY:6'
+  - 'UNBREAKING:5'
+  - 'LUCK_OF_THE_SEA:5'
+  - 'LURE:5'
+  - 'QUICK_CHARGE:5'
+  - 'PIERCING:6'
+  - 'MENDING:1'
+  - 'INFINITY:1'
+  - 'SWEEPING_EDGE:4'
+
+# ------------------------------------------------------------------------
+# List of attributes that can be boosted on armor/weapons/tools
+# Format: 'ATTRIBUTE_NAME:MAX_LEVEL'
+# Custom names: SPEED, JUMP, LUCK
+# These are mapped internally to Attribute enum types
+# As of 2.0.0 These are the only three attributes available.
+# I will add more in the future.
+# ------------------------------------------------------------------------
+boost_attributes:
+  - 'SPEED:3'
+  - 'JUMP:3'
+  - 'LUCK:5'
+
+# END OF CONFIG
