@@ -1,0 +1,16 @@
+Copyright (c) 2025 HammontreeArt
+
+All rights reserved.
+
+This repository is provided solely for the purpose of issue tracking and documentation related to the EnchantBoost plugin.
+
+You may view and clone this repository for personal or informational purposes only.
+
+You may NOT:
+- Rehost, fork, or redistribute this repository in whole or in part
+- Modify or repurpose its content for commercial, public, or derivative use
+- Use any part of this repository to create new works
+
+Unauthorized use, duplication, or redistribution is strictly prohibited.
+
+For questions or permissions, contact: whitelist@maricopacraft.com
