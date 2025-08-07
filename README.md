@@ -33,7 +33,17 @@ Please be patient — if your report is missing details, I may comment and reque
 
 Thank you for helping improve **EnchantBoost**!
 — *HammontreeArt*
+
+
 ---
 
-Let me know if you want a section added for known issues, roadmap, or contribution guidelines.
+### 📄 Usage Notice
+
+This repository is intended solely for tracking issues related to the **EnchantBoost** plugin.
+
+Please note that **no production code is stored here**. For licensing terms and usage limitations, see [`NOTICE.txt`](./NOTICE.txt).
+
+Unauthorized redistribution or repurposing of this repository is not permitted.
+
+---
 
