@@ -41,11 +41,9 @@ Thank you for helping improve **EnchantBoost**!
 
 This repository is intended solely for tracking issues related to the **EnchantBoost** plugin.
 
-Please note that **no production code is stored here**. For licensing terms and usage limitations, see [`NOTICE.txt`](./NOTICE.txt).
-
-Unauthorized redistribution or repurposing of this repository is not permitted.
-
-📜 See [LICENSE](./LICENSE) for usage restrictions.
+Please note:
+- 📄 No production code is stored here. For licensing terms and usage limitations, see [`NOTICE.txt`](./NOTICE.txt).
+- 📜 Unauthorized redistribution or repurposing of this repository is not permitted. See [`LICENSE`](./LICENSE) for full usage restrictions.
 
 ---
 
