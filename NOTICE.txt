@@ -1,0 +1,9 @@
+This repository is provided solely for the purpose of issue tracking and documentation for the EnchantBoost plugin.
+
+No part of this repository is intended for redistribution, repackaging, or resale.
+
+All materials are © 2025 HammontreeArt. All rights reserved.
+
+Cloning, forking, or duplicating this repository is permitted for personal review or debugging only.
+
+Unauthorized redistribution or misrepresentation of this repository or its purpose is strictly prohibited.
