@@ -45,5 +45,7 @@ Please note that **no production code is stored here**. For licensing terms and 
 
 Unauthorized redistribution or repurposing of this repository is not permitted.
 
+📜 See [LICENSE](./LICENSE) for usage restrictions.
+
 ---
 
