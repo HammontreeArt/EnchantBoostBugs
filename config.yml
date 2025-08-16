@@ -1,21 +1,21 @@
-##########################################################################
+# #########################################################################
 #
 # Plugin .:  Enchantment Boosts
 # Date... :  2024-06-10
-# Version :  2.0.0
+# Base Ver:  2.0.0
+# Author  :  xAtlas_Shruggedx (play.maricopacraft.com)
 #
-##########################################################################
+# #########################################################################
 
 # Enables debug messages in the server console (true/false)
-debug: true
+debug: false
 
 # Your Minecraft username or server admin name (used for logging or display)
-server-owner: 'xAtlas_Shruggedx'
+server-owner: notch
 
-
-##########################################################################
+# #########################################################################
 # BOOSTING CONFIGURATION
-##########################################################################
+# #########################################################################
 
 # Amount of XP required to boost an enchantment or attribute
 required_xp: 30
@@ -26,25 +26,25 @@ required_xp: 30
 # Only valid Bukkit enchantment names are allowed (case-insensitive)
 # ------------------------------------------------------------------------
 boost_enchantments:
-  - 'PROTECTION:6'
-  - 'FIRE_PROTECTION:6'
-  - 'FEATHER_FALLING:5'
-  - 'BLAST_PROTECTION:6'
-  - 'PROJECTILE_PROTECTION:6'
-  - 'SHARPNESS:6'
-  - 'SMITE:6'
-  - 'LOOTING:5'
-  - 'FORTUNE:6'
-  - 'POWER:6'
-  - 'EFFICIENCY:6'
-  - 'UNBREAKING:5'
-  - 'LUCK_OF_THE_SEA:5'
-  - 'LURE:5'
-  - 'QUICK_CHARGE:5'
-  - 'PIERCING:6'
-  - 'MENDING:1'
-  - 'INFINITY:1'
-  - 'SWEEPING_EDGE:4'
+- PROTECTION:6
+- FIRE_PROTECTION:6
+- FEATHER_FALLING:5
+- BLAST_PROTECTION:6
+- PROJECTILE_PROTECTION:6
+- SHARPNESS:6
+- SMITE:6
+- LOOTING:5
+- FORTUNE:6
+- POWER:6
+- EFFICIENCY:6
+- UNBREAKING:5
+- LUCK_OF_THE_SEA:5
+- LURE:5
+- QUICK_CHARGE:5
+- PIERCING:6
+- MENDING:1
+- INFINITY:1
+- SWEEPING_EDGE:4
 
 # ------------------------------------------------------------------------
 # List of attributes that can be boosted on armor/weapons/tools
@@ -55,8 +55,136 @@ boost_enchantments:
 # I will add more in the future.
 # ------------------------------------------------------------------------
 boost_attributes:
-  - 'SPEED:3'
-  - 'JUMP:3'
-  - 'LUCK:5'
+- SPEED:3
+- JUMP:3
+- LUCK:5
+
+
+# ####################################################################################
+# Fishing Rewards
+# ####################################################################################
+# chance ........... Percentage chance (0–100) that fishing gives a reward.
+#
+# attribute_gate ... Probability (0.0–1.0) that a successful reward will be
+#                    an ATTRIBUTE boost instead of an ENCHANT boost.
+#                    Example: 0.15 = 15% chance of attribute, 85% enchant.
+#
+# attribute_weights  Relative weights applied when picking WHICH attribute
+#                    (SPEED, JUMP, LUCK). Higher = more likely.
+#                    Example: SPEED:1.0, JUMP:0.6 means SPEED is ~2× as likely.
+#
+# only_reward_on_catch Optional list of item names (Bukkit Material enums)
+#                      that must be caught to trigger a reward.
+#                      Example: [PUFFERFISH, COD]
+#                      If empty or missing → rewards can trigger on any catch.#
+#
+# NOTES:
+# - Enchants are always favored first; attributes only appear if gate hits.
+# - If weights are omitted, all attributes are equally likely (1.0 each).
+# ####################################################################################
+fishing:
+  enabled: true
+  chance: 100.0
+  attribute_gate: 0.15
+  attribute_weights:
+    SPEED: 1.0
+    JUMP: 0.6
+    LUCK: 0.6
+  only_reward_on_catch:
+  - pufferfish
+  - tropical_fish
+  - string
+  - bowl
+  - name_tag
+  - lily_pad
+  - bow
+  - fishing_rod
+  - saddle
+
+
+# ####################################################################################
+# Mining Rewards
+# ####################################################################################
+# chance ........... Percentage chance (0–100) per block break to give a reward.
+#
+# attribute_gate ... Probability (0.0–1.0) that a successful reward will be
+#                    an ATTRIBUTE boost instead of an ENCHANT boost.
+#                    Example: 0.15 = 15% chance of attribute, 85% enchant.
+#
+# attribute_weights  Relative weights applied when picking WHICH attribute
+#                    (SPEED, JUMP, LUCK). Higher = more likely.
+#                    Example: SPEED:1.0, JUMP:0.6 means SPEED is ~2× as likely.
+#
+# reward_blocks .... List of block types eligible to trigger a mining reward.
+# ####################################################################################
+mining:
+  enabled: true
+  chance: 2.0
+  attribute_gate: 0.1
+  attribute_weights:
+    SPEED: 1.0
+    JUMP: 0.5
+    LUCK: 0.5
+  reward_blocks:
+  - STONE
+  - GRANITE
+  - DIORITE
+  - ANDESITE
+  - DEEPSLATE
+  - TUFF
+  - CALCITE
+  - COBBLESTONE
+  - COBBLED_DEEPSLATE
+  - IRON_ORE
+  - DEEPSLATE_IRON_ORE
+  - COPPER_ORE
+  - DEEPSLATE_COPPER_ORE
+  - COAL_ORE
+  - DEEPSLATE_COAL_ORE
+  - GOLD_ORE
+  - DEEPSLATE_GOLD_ORE
+  - REDSTONE_ORE
+  - DEEPSLATE_REDSTONE_ORE
+  - LAPIS_ORE
+  - DEEPSLATE_LAPIS_ORE
+  - DIAMOND_ORE
+  - DEEPSLATE_DIAMOND_ORE
+  - EMERALD_ORE
+  - DEEPSLATE_EMERALD_ORE
+  - NETHER_QUARTZ_ORE
+  - NETHER_GOLD_ORE
+  - ANCIENT_DEBRIS
+  - AMETHYST_BLOCK
+
+# ####################################################################################
+# Mob Kill Rewards
+# ####################################################################################
+# chance ........... Percentage chance (0–100) per mob kill to give a reward.
+#
+# attribute_gate ... Probability (0.0–1.0) that a successful reward will be
+#                    an ATTRIBUTE boost instead of an ENCHANT boost.
+#                    Example: 0.15 = 15% chance of attribute, 85% enchant.
+#
+# attribute_weights  Relative weights applied when picking WHICH attribute
+#                    (SPEED, JUMP, LUCK). Higher = more likely.
+#                    Example: SPEED:1.0, JUMP:0.6 means SPEED is ~2× as likely.
+#
+# include_friendly_mobs ... Optional list of passive mobs that CAN give rewards.
+#
+# exclude_hostile_mobs .... Optional list of hostile mobs that will NEVER reward.
+# ####################################################################################
+mobkill:
+  enabled: true
+  chance: 1.0
+  attribute_gate: 0.1
+  attribute_weights:
+    SPEED: 1.0
+    JUMP: 0.5
+    LUCK: 0.5
+  include_friendly_mobs:
+  - COW
+  exclude_hostile_mobs:
+  - VINDICATOR
+
 
 # END OF CONFIG
