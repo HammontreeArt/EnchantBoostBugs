@@ -35,7 +35,8 @@ All reports are reviewed. Based on severity and priority, they may be:
 ## 🔑 About EnchantBoost Editions
 
 - **Lite**  
-  - Free edition with strict limits (e.g., SPEED-only attributes, capped config options).  
+  - The Lite edition has strict limits (e.g., SPEED-only attributes, capped config options).
+     
 - **Premium**  
   - Full edition with expanded features (JUMP, LUCK, unlimited config flexibility).  
 
