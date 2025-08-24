@@ -28,6 +28,10 @@ body:
       - Exploit
       - Compatibility issue
       - Error in console
+      - Config Error
+      - In Game Functionality
+      - Lore Issues
+      - Sound Effect Issues
       - Other unexpected behaviour
   validations:
     required: true
