@@ -29,6 +29,10 @@ body:
       - Compatibility issue
       - Error in console
       - Other unexpected behaviour
+      - Config Error
+      - In Game Functionality
+      - Lore Issues
+      - Sound Effect Issues
   validations:
     required: true
 
