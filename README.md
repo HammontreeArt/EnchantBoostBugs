@@ -1,4 +1,4 @@
-![EnchantBoost Logo](https://www.maricopacraft.com/images/EB_Icon_64x64.png) 
+![EnchantBoost Logo](https://www.maricopacraft.com/images/EB_Cover_r2_1024x512.png) 
 
 # ✨ EnchantBoost Wiki
 
@@ -10,7 +10,7 @@ Welcome to the official wiki for **EnchantBoost**, the Minecraft plugin that all
 
 **Official Bug Tracker for EnchantBoost**
 
-This repository is dedicated to tracking bugs, feature requests, and enhancements for the [EnchantBoost](https://github.com/HammontreeArt/EnchantBoost) plugin.
+This repository is dedicated to tracking bugs, feature requests, and enhancements for the [EnchantBoost](https://github.com/MaricopaCraft/EnchantBoost) plugin.
 
 Before submitting a new issue, please take a moment to:
 
