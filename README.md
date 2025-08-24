@@ -1,49 +1,58 @@
 ![EnchantBoost Logo](https://www.maricopacraft.com/images/EB_Cover_r2_1024x512.png) 
 
-# ✨ EnchantBoost Wiki
+# ✨ EnchantBoostBugs
 
-Welcome to the official wiki for **EnchantBoost**, the Minecraft plugin that allows players to boost enchantments and attributes beyond vanilla limits — through effort, not shortcuts.
+**Official Issue Tracker for EnchantBoost (Lite + Premium)**
+
+This repository is dedicated to tracking **bugs**, **feature requests**, and **enhancements** for the  
+[EnchantBoost](https://github.com/MaricopaCraft/EnchantBoost) plugin family.
 
 ---
 
-# 🐛 EnchantBoostBugs
+## 📋 Before You Submit
 
-**Official Bug Tracker for EnchantBoost**
+Please take a moment to:
 
-This repository is dedicated to tracking bugs, feature requests, and enhancements for the [EnchantBoost](https://github.com/MaricopaCraft/EnchantBoost) plugin.
-
-Before submitting a new issue, please take a moment to:
-
-* ✅ **Search the existing issues** (open and closed) to avoid duplicates.
-* 📝 **Provide detailed information** if you're reporting a bug — the more context, the better.
-* 💡 **Label your issue** clearly as a *bug*, *suggestion*, or *question*.
+* ✅ **Search existing issues** (open and closed) to avoid duplicates.  
+* 📝 **Provide detailed information** (server version, config, console errors, reproduction steps).  
+* 🧩 **Select the correct edition** — Lite or Premium — in the issue form.  
+* 💡 **Use the templates provided** (Bug Report / Feature Request) to make tracking smoother.  
 
 ---
 
 ## 📬 Issue Review Process
 
-All reports will be reviewed. Based on severity and priority, I will either:
+All reports are reviewed. Based on severity and priority, they may be:
 
-* Begin working on the issue promptly, or
-* Place it in a review queue to revisit later.
+* 🔧 Addressed promptly and assigned to the next patch release.  
+* 🗂️ Placed in the review queue for investigation.  
+* ❓ Returned with a request for more details (if information is missing).  
 
-Please be patient — if your report is missing details, I may comment and request more information. Be sure to check back periodically for updates or follow-up questions.
-
----
-
-Thank you for helping improve **EnchantBoost**!
-— *HammontreeArt*
-
+👉 Please be patient. Check back periodically for updates or follow-up questions.  
 
 ---
 
-### 📄 Usage Notice
+## 🔑 About EnchantBoost Editions
 
-This repository is intended solely for tracking issues related to the **EnchantBoost** plugin.
+- **Lite**  
+  - Free edition with strict limits (e.g., SPEED-only attributes, capped config options).  
+- **Premium**  
+  - Full edition with expanded features (JUMP, LUCK, unlimited config flexibility).  
 
-Please note:
-- 📄 No production code is stored here. For licensing terms and usage limitations, see [`NOTICE.txt`](./NOTICE.txt).
-- 📜 Unauthorized redistribution or repurposing of this repository is not permitted. See [`LICENSE`](./LICENSE) for full usage restrictions.
+When submitting issues, **always specify Lite vs Premium** so we can reproduce correctly.  
 
 ---
 
+## 📄 Usage Notice
+
+This repository is intended **only** for tracking issues related to EnchantBoost.  
+
+- 📦 No production code is stored here.  
+- 📜 For licensing and usage terms, see [`LICENSE`](./LICENSE) and [`NOTICE.txt`](./NOTICE.txt).  
+- 🚫 Unauthorized redistribution or repurposing of this repository is not permitted.  
+
+---
+
+💡 Thank you for helping improve **EnchantBoost**!  
+— Atlas —
+*MaricopaCraft*  
