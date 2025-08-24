@@ -1,13 +1,25 @@
 name: 🌟 Feature request
-description: Suggest a new feature or improvement for EnchantBoost
+description: Suggest a new feature or improvement for EnchantBoost (Lite or Premium)
 title: "[Feature] "
 labels: [enhancement]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for suggesting a new feature for **EnchantBoost**!  
+        Thanks for suggesting a new feature for **EnchantBoost**!
         Please fill out the form below to help us understand your request.
+
+  - type: dropdown
+    id: edition
+    attributes:
+      label: 🧩 Edition
+      description: Which edition does this request target?
+      options:
+        - Lite
+        - Premium
+      multiple: false
+    validations:
+      required: true
 
   - type: textarea
     id: description
@@ -31,8 +43,39 @@ body:
     id: version
     attributes:
       label: 🔢 Server Version (optional)
-      description: What version of Minecraft or Paper/Spigot are you using?
-      placeholder: "e.g., 1.20.4 (Paper)"
+      description: What version of Minecraft and platform are you using?
+      placeholder: "e.g., 1.20.4 (Spigot) or 1.20.4 (Paper)"
+    validations:
+      required: false
+
+  - type: textarea
+    id: scope-notes
+    attributes:
+      label: 🧭 Scope & constraints
+      description: If you selected **Lite**, remember Lite constraints (SPEED-only attributes; exactly 3 fishing loot items; max 10 mining blocks; exactly 2 friendly + 4 hostile mobs). If Premium, list any advanced options needed.
+      placeholder: "Note any Lite limits you’re respecting, or Premium-only capabilities you need."
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 🔁 Alternatives considered (optional)
+      description: Did you consider other approaches or plugins?
+      placeholder: "List any alternatives or workarounds and why they aren’t sufficient."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: ⏱️ Priority (self-assessed)
+      description: How urgent/impactful is this?
+      options:
+        - Nice to have
+        - Important
+        - Critical
+      multiple: false
     validations:
       required: false
 
@@ -43,5 +86,7 @@ body:
       options:
         - label: I have searched existing issues to avoid duplicates.
           required: true
-        - label: I understand that this is a feature *request*, not a bug report.
+        - label: I understand this is a feature request, not a bug report.
+          required: true
+        - label: If I selected **Lite**, this request respects Lite constraints.
           required: true
